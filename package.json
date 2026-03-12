@@ -1,0 +1,46 @@
+{
+  "name": "mcb-server",
+  "version": "1.0.0",
+  "description": "MyCircleBudiz Backend API Server",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@asteasolutions/zod-to-openapi": "^8.4.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "multer": "^2.0.2",
+    "qrcode": "^1.5.4",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chandumitty@bitbucket.org/clearfocus/mcb-api.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://bitbucket.org/clearfocus/mcb-api/issues"
+  },
+  "homepage": "https://bitbucket.org/clearfocus/mcb-api#readme"
+}
